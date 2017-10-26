@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Pac-man</title>
+        <style>
+            body {
+                background-image: url("fondo02.gif");
+            }
+            #game{
+                display: block;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }
+            p{
+                position: relative;
+                font-family: italic;
+                margin-left: 0px;
+            }
+        </style>
+    </head>
+    <body onload="startGame()">
+        <canvas id="game" width="700" height="500"></canvas>
+
+    <script type="text/javascript" src="comecocos.js">
+
+    </script>
+    </body>
+</html>
